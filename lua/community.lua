@@ -4,31 +4,31 @@
 
 ---@type LazySpec
 return {
-  "AstroNvim/astrocommunity",
-  --[[ Language Packs ]]
-  { import = "astrocommunity.pack.bash" },
-  { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.markdown" },
-  {
-    -- requires composer
-    import = "astrocommunity.pack.php"
-  },
-  {
-    -- requires python
-    import = "astrocommunity.pack.python"
-  },
-  {
-    -- requires go
-    import = "astrocommunity.pack.sql"
-  },
-  { import = "astrocommunity.pack.toml" },
-  { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.pack.xml" },
-  { import = "astrocommunity.pack.yaml" },
+    "AstroNvim/astrocommunity",
+    --[[ Language Packs ]]
+    { import = "astrocommunity.pack.bash" },
+    { import = "astrocommunity.pack.docker" },
+    { import = "astrocommunity.pack.html-css" },
+    { import = "astrocommunity.pack.json" },
+    { import = "astrocommunity.pack.lua" },
+    { import = "astrocommunity.pack.markdown" },
+    {
+        -- requires composer
+        import = "astrocommunity.pack.php",
+    },
+    {
+        -- requires python
+        import = "astrocommunity.pack.python",
+    },
+    {
+        -- requires go
+        import = "astrocommunity.pack.sql",
+    },
+    { import = "astrocommunity.pack.toml" },
+    -- { import = "astrocommunity.pack.typescript" },
+    { import = "astrocommunity.pack.xml" },
+    { import = "astrocommunity.pack.yaml" },
 
-  --[[ Filetype Plugins ]]
-  { import = "astrocommunity.programming-language-support.csv-vim" },
+    --[[ Filetype Plugins ]]
+    { import = "astrocommunity.programming-language-support.csv-vim" },
 }
