@@ -43,6 +43,12 @@ return {
         ---@diagnostic disable: missing-fields
         config = {
             -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+            phpactor = {
+                init_options = {
+                    ["php_code_sniffer.enabled"] = true,
+                    ["php_code_sniffer.args"] = { "--standard=%project_root%/*Standard.xml" },
+                },
+            },
         },
         -- customize how language servers are attached
         handlers = {
