@@ -20,10 +20,10 @@ return {
         -- requires python
         import = "astrocommunity.pack.python",
     },
-    {
-        -- requires go
-        import = "astrocommunity.pack.sql",
-    },
+    -- {
+    --     -- requires go
+    --     import = "astrocommunity.pack.sql",
+    -- },
     { import = "astrocommunity.pack.toml" },
     { import = "astrocommunity.pack.typescript" },
     { import = "astrocommunity.pack.xml" },
