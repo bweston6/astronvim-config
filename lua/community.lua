@@ -14,11 +14,11 @@ return {
   { import = "astrocommunity.pack.markdown" },
   {
     -- requires composer
-    import = "astrocommunity.pack.php"
+    import = "astrocommunity.pack.php",
   },
   {
     -- requires python
-    import = "astrocommunity.pack.python"
+    import = "astrocommunity.pack.python",
   },
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.typescript" },
