@@ -1,12 +1,13 @@
 ---@type LazySpec
-return {{
+return {
+  {
     "franco-ruggeri/codecompanion-spinner.nvim",
     dependencies = {
-        "olimorris/codecompanion.nvim",
-        "nvim-lua/plenary.nvim",
+      "olimorris/codecompanion.nvim",
+      "nvim-lua/plenary.nvim",
     },
-    opts = {}
-},
+    opts = {},
+  },
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
